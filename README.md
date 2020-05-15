@@ -19,53 +19,6 @@
 因为直接搬运了ImGUI的opengl2的例子，所以整个工程都是ImGUI的，核心代码放在：/examples/example_glfw_opengl2/
 每一节的内容会放到一个main.cpp文件中。每个mainX.cpp都是一个基于上一个文件，增加新的特性。
 
-main1.cpp 多线程和ppm图片输出
-
-<img src = "https://img-blog.csdnimg.cn/20200224215545946.gif">
-
-main2.cpp 射线、简单相机和背景输出
-
-<img src = "https://img-blog.csdnimg.cn/20200225175003661.png">
-
-main3.cpp 球体和表面法向量
-
-<img src = "https://img-blog.csdnimg.cn/20200225205810947.png">
-
-main4.cpp 封装成类
-
-<img src = "https://img-blog.csdnimg.cn/20200226174541161.png?">
-
-main5.cpp 抗锯齿
-
-<img src = "https://img-blog.csdnimg.cn/20200226192557768.png">
-
-
-
-main6.cpp 漫反射材质
-
-<img src = "https://img-blog.csdnimg.cn/20200226204757396.png">
-
-main7.cpp 反射向量和金属材质
-
-<img src = "https://img-blog.csdnimg.cn/20200227105212838.png">
-
-main8.cpp 折射向量和电介质
-
-<img src = "https://img-blog.csdnimg.cn/20200227163304126.png">
-
-main9.cpp 可放置相机
-
-<img src = "https://img-blog.csdnimg.cn/2020022719201438.gif">
-
-main10.cpp 散焦模糊
-
-<img src = "https://img-blog.csdnimg.cn/20200301211843200.gif">
-
-main11.cpp 随机场景的最终效果
-
-<img src = "https://img-blog.csdnimg.cn/20200301221558173.png">
-
-
 
 ## MacOS运行环境
 
@@ -80,3 +33,25 @@ SOURCES = main8.cpp
 ## Windows运行环境
 运行\example\imgui_examples.sln，然后将对应小节的mainX.cpp的代码粘贴到main.cpp里面。
 （支持visual studio 2015，其他版本未测试）
+
+## 运行效果
+
+| 小节 |  描述 |效果|
+| :-------------- | :------------- | :------------- |
+| main1.cpp  | 多线程和ppm图片输出  |<img src = "https://img-blog.csdnimg.cn/20200224215545946.gif">|
+| main2.cpp  | 射线、简单相机和背景输出  |<img src = "https://img-blog.csdnimg.cn/20200225175003661.png">|
+| main3.cpp  | 多线程和ppm图片输出  |<img src = "https://img-blog.csdnimg.cn/20200225205810947.png">|
+| main4.cpp  | 封装成类  |<img src = "https://img-blog.csdnimg.cn/20200226174541161.png">|
+| main5.cpp  | 抗锯齿  |<img src = "https://img-blog.csdnimg.cn/20200226192557768.png">|
+| main6.cpp  | 漫反射材质  |<img src = "https://img-blog.csdnimg.cn/20200226204757396.png">|
+| main7.cpp  | 反射向量和金属材质  |<img src = "https://img-blog.csdnimg.cn/20200227105212838.png">|
+| main8.cpp  | 折射向量和电介质  |<img src = "https://img-blog.csdnimg.cn/20200227163304126.png">|
+| main9.cpp  | 可放置相机  |<img src = "https://img-blog.csdnimg.cn/2020022719201438.gif">|
+| main10.cpp  | 散焦模糊  |<img src = "https://img-blog.csdnimg.cn/20200301211843200.gif">|
+| main11.cpp  | 随机场景的最终效果  |<img src = "https://img-blog.csdnimg.cn/20200301221558173.png">|
+
+
+
+
+
+
